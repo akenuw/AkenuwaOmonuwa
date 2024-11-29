@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Akenuwa Omonuwa</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akenuwaomonuwa@gmail.com" class="contact-link">Akenuwaomonuwa@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+2349036627043" class="contact-link">+234 90 3662 7043</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-10-15">October 15, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title"></p>
+
+              <address></address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://wa.me/+2349036627043?text=Hello" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://discordapp.com/users/1119978971149373450" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/akenu_waomonuwa/profilecard/?igsh=MWp0NGw0Z3h6MTVqaQ==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I excel at transforming complex challenges into clean, functional, and engaging web experiences. Whether crafting seamless code or designing intuitive interfaces, I aim to merge creativity with technology to deliver impactful results.
+          </p>
+
+          <p>
+            As someone who thrives on learning, I am exploring the intricacies of cybersecurity to understand how to protect digital assets effectively. In web design, I focus on crafting user-friendly and visually appealing websites that combine functionality with creativity. My journey into graphic design allows me to bring concepts to life, enhancing my ability to deliver comprehensive digital solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The team at KelvinCore exceeded my expectations! They built a custom website for my business that not only looks stunning but also functions seamlessly. Their professionalism and technical expertise are truly unmatched.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Partnering with Akenuwa Omonuwa was the best decision for our organization. Their tailored cybersecurity solutions ensured our data remained secure while their support team was always available to assist. Highly recommend their services
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a startup owner, I needed a tech company that could turn my vision into reality. KelvinCore delivered beyond what I imagined, creating a user-friendly app and website that our customers love. Thank you for making this journey smooth and successful!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The software designed by Akenuwa Omonuwa for our hotel is a lifesaver! It’s efficient, secure, and has simplified our day-to-day tasks significantly. I couldn’t be happier with their service and professionalism
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/lakenuwainvestment?igsh=MWJ6NWlmZW9iOHhtcw==">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ERITOY COLLEGE</h4>
+
+              <span>2019 — 2024</span>
+
+              <p class="timeline-text">
+                Graduating with my qualifications, I am now leveraging these skills to explore new horizons, combining my passion for technology, creativity, and continuous learning. My science background empowers me to adapt to various fields, including programming, web design, and other tech-driven disciplines, ensuring I contribute effectively to solving modern-day challenges.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> UDEMY </h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                I began my journey into cybersecurity through comprehensive online training provided by StationX on Udemy. From understanding network security and ethical hacking to mastering penetration testing and system hardening, the course provided hands-on knowledge of defending against cyber threats in real-world scenarios. StationX's expert-led curriculum helped me gain practical skills and certifications, preparing me to tackle modern cybersecurity challenges confidently.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BEAMON UNIQUE ENTERPRISES</h4>
+
+              <span>2015-2019</span>
+
+              <p class="timeline-text">
+                I acquired my skills in Microsoft Excel, PowerPoint, and other essential Microsoft Office software through training at Beamon Unique Enterprises. This experience provided me with a comprehensive understanding of these tools, empowering me to handle tasks ranging from data analysis and visualization to creating impactful presentations and managing documents effectively.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LakeNuwa Logistics (IT Personnel)</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                To complement these systems, I implemented multiple layers of security, including data encryption, user authentication, and robust access controls, safeguarding sensitive information against potential cyber threats. These solutions not only enhanced operational workflows but also elevated the hotel's digital presence and security posture, delivering a reliable and professional platform for both staff and guests.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KelvinCore (CEO)</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Under my leadership, Kelvincore successfully executed numerous projects, ranging from custom-built software applications to comprehensive digital transformations for businesses. I ensured the company maintained a client-focused approach, delivering tailored solutions that aligned with industry standards and addressed real-world challenges.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Beamon Unique Ent</h4>
+
+              <span>IT Personnel</span>
+
+              <p class="timeline-text">
+                During my time at Beamon Unique Enterprises, I had the opportunity to share my knowledge and passion for technology by teaching a diverse range of students. I instructed courses on essential Microsoft software, including Excel, PowerPoint, and other office tools, as well as fundamental principles of web development, programming, and cybersecurity. Through my teaching, I empowered students to develop practical skills that enhanced their professional careers and improved their productivity in the digital space.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphical Presentation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphics Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Graphical Presentation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    In 2020, I had the privilege of participating in a Design Conference, a pivotal event that brought together industry professionals, creative minds, and innovators from around the globe. The conference served as a platform to explore the latest trends, tools, and methodologies in design, ranging from UI/UX design to graphic and web design.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    As a passionate designer, I have always been fascinated by the impact typography has on visual communication. In my journey as a Font Designer, I crafted what I consider the Best Font Ever, blending creativity, functionality, and aesthetic appeal into a single typeface.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Digest Design represents my dedication to creating comprehensive and visually compelling designs that effectively communicate ideas and information. With a focus on clarity, aesthetics, and functionality, I specialize in crafting layouts and visuals that transform complex concepts into digestible and engaging formats.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
